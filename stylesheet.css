@@ -15,6 +15,7 @@ header ul li {
     padding: 2%;  /*seperate nav elements from each other*/
 }
 
+header ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
