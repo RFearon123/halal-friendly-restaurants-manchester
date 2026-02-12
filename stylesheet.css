@@ -6,3 +6,7 @@ ul li {
     float: left; /*make nav bar horizontal*/
     padding: 2%;  /*seperate nav elements from each other*/
 }
+
+ul li a {
+    
+}
