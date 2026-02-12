@@ -5,4 +5,6 @@
 * use css grid, more experience with it
 * add a gallery slider of pictures of the restaurants
 * mobile website- responsive design 
+* do an image map- they look cool, maybe a map of world go to cuisine
+* iframe is an an HTML element that embeds an external webpage, document, or media file (like a YouTube video, map, or ad) directly into a parent webpage - **google maps would be one**
 
