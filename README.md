@@ -9,7 +9,8 @@
 * mobile website- responsive design 
 * do an image map- they look cool, maybe a map of world go to cuisine, learn mapping pictures 
 * infinite sliding gallery- not triggered by click but doing it automatically when see page
-* dark mode/ light mode which when switch it it carries over to different webpages
+* dark mode/ light mode which when switch it it carries over to different webpages- liquid storage
+* liquid storage- input on  webpage and then click to neck page and return on the next page 
 * picture background like leaves and then you zoom oiut and see whiole tree
 * link in navbar tage to a specific place on same webpage
 * click section heading and it reveals an image/ diagram/ text  javscript
