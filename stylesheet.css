@@ -1,6 +1,7 @@
 ul {
     list-style-type: none; /*removes bullet points*/
     justify-content: center;
+    
 }
 
 ul li {
