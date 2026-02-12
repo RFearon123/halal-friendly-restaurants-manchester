@@ -40,4 +40,9 @@ height: 0; /*Makes the container itself have zero height. The visible height com
     /* These 2 lines of code- make the iframe fill the container completely, scaling automatically with the container’s width and padding-based height. */
     position:absolute;
     /*Positions the iframe relative to its parent (.map-responsive). This is why position: relative was important on the container.*/
+    
+}
+
+body {
+    margin: 5%;
 }
