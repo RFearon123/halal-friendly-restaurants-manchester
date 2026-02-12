@@ -36,9 +36,9 @@ aside li {
 }
 
 aside li a {
-     display: block;
-    text-decoration: darkorange;
-    text-align: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
     
 
 }
