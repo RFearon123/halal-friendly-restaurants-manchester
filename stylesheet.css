@@ -23,14 +23,14 @@ header {
     overflow: auto;
 }
 
-.map-responsive {
+.map-responsive, .mapPins {
 padding-bottom:56.25%;
 overflow: hidden; /*Ensures that any content that exceeds the container’s bounds is clipped. This prevents scrollbars from showing if the iframe is larger than the container.*/
 position: relative; /*Sets the container as a reference point for absolutely positioned children (like the iframe).*/
 height: 0; /*Makes the container itself have zero height. The visible height comes entirely from the padding-bottom trick.*/
 }
 
-.map-responsive iframe {
+.map-responsive iframe, .mapPins iframe {
 
     left:0;
     top:0;
