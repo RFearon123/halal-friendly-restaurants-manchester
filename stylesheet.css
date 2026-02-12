@@ -23,4 +23,21 @@ header {
     overflow: auto;
 }
 
-.map
+.map-responsive {
+padding-bottom:56.25%;
+overflow: hidden; /*Ensures that any content that exceeds the container’s bounds is clipped. This prevents scrollbars from showing if the iframe is larger than the container.*/
+position: relative; /*Sets the container as a reference point for absolutely positioned children (like the iframe).*/
+height: 0; /*Makes the container itself have zero height. The visible height comes entirely from the padding-bottom trick.*/
+}
+
+.map-responsive iframe {
+
+    left:0;
+    top:0;
+   /* These 2 lines of code- anchor the iframe to the top-left corner of the container.*/
+    height:100%;
+    width:100%;
+    /* These 2 lines of code- make the iframe fill the container completely, scaling automatically with the container’s width and padding-based height. */
+    position:absolute;
+    /*Positions the iframe relative to its parent (.map-responsive). This is why position: relative was important on the container.*/
+}
