@@ -1,15 +1,20 @@
-ul {
+header {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+
+header ul {
     list-style-type: none; /*removes bullet points*/
     justify-content: center;
     
 }
 
-ul li {
+header ul li {
     float: left; /*make nav bar horizontal*/
     padding: 2%;  /*seperate nav elements from each other*/
 }
 
-ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -20,14 +25,25 @@ aside {
     display: block;
     width: auto;
     overflow: auto;
+
+}
+
+aside li {
+    list-style-type: none; /*removes bullet points*/
+    justify-content: center;
+
+}
+
+aside li a {
+     display: block;
+    text-decoration: darkorange;
+    text-align: left;
+    
+
 }
 
 
-header {
-    display: block;
-    width: 100%;
-    overflow: auto;
-}
+
 
 .map-responsive, .mapPins {
 padding-bottom:56.25%;
