@@ -12,5 +12,6 @@
 * dark mode/ light mode which when switch it it carries over to different webpages
 * picture background like leaves and then you zoom oiut and see whiole tree
 * link in navbar tage to a specific place on same webpage
-* click section heading and it reveals an image
+* click section heading and it reveals an image/ diagram/ text  javscript
+* make gallery, make each of images link to another webpage/ website- perhaps restaurants website
 
